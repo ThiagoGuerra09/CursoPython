@@ -17,6 +17,6 @@ else:
 #pode ser usado para conferir se a variavel apresenta valor
 a="" #n tem valor, logo n entrou no if
 if a:
-    print('tem valor')
+    print('tem valor') 
     
     
