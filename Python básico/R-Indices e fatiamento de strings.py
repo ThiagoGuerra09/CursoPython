@@ -1,6 +1,5 @@
 """Indices e fatiamento de strings
 """
-
 #indice
 #     012345 // esse aqui é o indice da string, cada numero representa um caractere da string thiago
 nome="thiago"
