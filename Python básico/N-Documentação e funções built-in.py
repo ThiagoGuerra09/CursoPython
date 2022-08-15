@@ -1,5 +1,6 @@
 """Documentação
 https://docs.python.org/3/library/stdtypes.html
+https://docs.python.org/3/library/functions.html
 """
 
 """Funções
