@@ -7,11 +7,11 @@ Função range(start=0, stop, step=1)"""
 
 #função range, primeiro passamos, o inicio, onde para e para pular de qunrto em quanto, ao não passar valores ela assume o padrão, começa em 0 e pula de 1 em 1
 
-# for numero in range(10):
-# #     print(numero)
+for numero in range(10):
+    print(numero)
 
-# # for numero in range(1,10,2):
-# #     print(numero)
+for numero in range(1,10,2):
+    print(numero)
 
 
 for numero in range(20,10,-1):
