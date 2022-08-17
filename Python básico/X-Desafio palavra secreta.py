@@ -1,9 +1,6 @@
 """existe uma palavra secreta e o usuário deve acertar
 usar lista"""
 
-from re import T
-
-
 secreta='taturana'
 digitadas=[]
 chances=3
