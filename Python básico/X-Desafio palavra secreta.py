@@ -40,3 +40,4 @@ while True:
         print(temporaria)
         print(f'você ainda tem {chances} chances')
     
+
