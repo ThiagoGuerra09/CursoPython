@@ -15,3 +15,31 @@ print('ola' in d2.values())# se tiver um valor com esse nome volta true
 
 for k in d2.items():#vem a chave e o valor
     print(k)
+
+#dicionários dentro de dicionários:
+
+cliente = {
+    'cliente1': {
+        'nome': 'antonio',
+        'sobrenome': 'frio'
+    },
+    'cliente2':{
+        'nome': 'oligar',
+        'sobrenome': 'abrao'
+    }
+}
+for keys, values in cliente.items(): 
+    print(f'Exibindo {keys} ')
+    for k,v in values.items():
+        print(f'O {k} = {v}')
+
+#para copiar um dicionário, não basta atribuir a outro, pois vai aletrar o original
+# o jeito certo é usando o .copy()
+
+v=d1.copy()
+v['chave1']='peido'
+print(d1)
+print(v)
+
+d2.pop('chave2')
+print(d2)
